@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" intergrity="sha256-46qynGAkLSFpVBEBog43gvNhfroj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900,900&display=swap">
-
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" intergrity="sha256-46qynGAkLSFpVBEBog43gvNhfroj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900,900&display=swap">
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </head>
 <body>
     <header>
         <div class="logo">
@@ -30,33 +31,85 @@
             </ul>
         </nav>
     </header>
-
+<div class="container">
     <!-- Introduction -->
     <section class="intro" id="home">
         <h1 class="section__title section__title--intro">
-            The title<br> <b>of my project</b>
+           <br> <b> Happy pet</b>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">subtitle</p>
-        <img src="img/services-bg2.png" alt="a photo" class="intro__img">
+        <p class="section__subtitle section__subtitle--intro pb-0 mb-0">Find your perfect pet here!</p>
+        <img src="img/myworkpet3.png" alt="a photo" class="intro__img">
+        <p class="live-link-project text-dark"><i>Live link:</i> <a href="https://haze1109.github.io/deploy_test/"><b>Happy pet</b> </a></p>
     </section>
-    <div class="portfolio-item-individual">
-        <p></p>
-        <img src="img/services-bg.png" alt="">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse perspiciatis temporibus impedit facere aspernatur dolorem quos at itaque error accusantium!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, voluptatem maxime? Necessitatibus quasi similique minus laudantium fugiat recusandae quod aliquid!</p>
+   
+    <div class="pet row img-fluid">
+        <div class="col-lg-4"><img src="img/petservices1.png" alt=""></div>
+        <div class="col-lg-4"><img src="img/p5.png" alt=""></div>
+        <div class="col-lg-4"><img src="img/petshoppage1.png" alt=""></div>
     </div>
+    <div class="portfolio_project pt-2 mx-auto">
+           <p> <b> Throughout the development process</b>, I faced some challenges, however, I overcame these challenges by conducting research and finding solutions online, demonstrating my problem-solving skills and ability to think creatively.</p> <br>  
+          <p class="pt-2"><i>Tools used: </i> <i class="fa-brands fa-bootstrap"></i> <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i></p>
+    </div>
+    <hr class="pt-2 mb-2 text-bg-dark">
 
-     <!--  Footer  -->
-     <footer class="footer">
-        <a href="https://mail.google.com/" class="footer__link">hazemorales11@gmail.com</a>
+
+
+    <!-- card -->
+    <div class="card-card row mt-2 pt-5">
+    <div class="card mx-auto" style="width: 18rem;">
+        <img src="img/petservices1.png" class="card-img-top" alt="...">
+        <div class="card-body text-bg-dark">
+          <p class="card-text"><b>I recently completed my first mini-project</b> , <i> a static e-commerce website</i> created entirely on my own using HTML, CSS, and Bootstrap. This project showcases my ability to <b>work independently and take initiative</b>, as I designed and built the website from scratch without any collaborators or team members.</p>
+        </div>
+      </div>
+    <div class="card mx-auto" style="width: 18rem;">
+        <img src="img/p5.png" class="card-img-top" alt="...">
+        <div class="card-body text-bg-dark">
+          <p class="card-text">One of the main tools I used was Bootstrap, an industry-standard framework that allowed me to create a responsive and mobile-friendly website that works seamlessly on all devices. I also used HTML and CSS to customize the design and layout of the website to make it aesthetically pleasing and user-friendly.</p>
+        </div>
+      </div>
+    <div class="card mx-auto" style="width: 18rem;">
+        <img src="img/petshoppage1.png" class="card-img-top" alt="...">
+        <div class="card-body text-bg-dark">
+          <p class="card-text">When designing and building the website, I focused on creating a clean and modern design that would appeal to users and make it easy for them to navigate and make purchases. I also made sure to optimize the website for speed and performance to ensure a smooth user experience.</p>
+        </div>
+    </div>
+    </div>
+    <br>
+    <hr class="pt-2 mt-5 text-bg-dark">
+    <p>
+        Overall, this project showcases my proficiency in web development and my ability to use industry-standard tools to create effective and visually appealing websites. It also demonstrates my problem-solving skills and my ability to work independently and take initiative when faced with challenges.
+        </p>
+      <!--  Footer  -->
+    <footer class="footer pt-0 mb-0 pb-0">
         <ul class="social-list">
             <li class="social-list__item"><a href="https://github.com/haze1109" class="social-list__link"><i class="fa-brands fa-github"></i></i></a></li>
             <li class="social-list__item"><a href="https://www.linkedin.com/in/haze-morales-557259183/" class="social-list__link"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li class="social-list__item"><a href="www.messenger/m.me/momi1109" class="social-list__link"><i class="fa-brands fa-facebook-messenger"></i></a></li>
-            <!-- <li class="social-list__item"><a href="#" class="social-list__link">d</a></li> -->
+            <li class="social-list__item"><a href="https://m.me/momi1109" class="social-list__link"><i class="fa-brands fa-facebook-messenger"></i></a></li>
         </ul>
+        <div class="container pb-3">
+            <div class="row">
+              <div class="col">
+                <table class="table table-borderless">
+                  <tbody>
+                    <tr>
+                      <th><a href="#about">About Us</a></th>
+                      <th><a href="#">Contact Us</a></th>
+                      <th><a href="#">Privacy Policy</a></th>
+                    </tr>
+                    <tr>
+                      <td><a href="#">FAQ</a></td>
+                      <td><a href="#">Terms of Service</a></td>
+                      <td><a href="#">Sitemap</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
     </footer>
     <script src="index.js"></script>
   
-        
+    </div>
     </body>

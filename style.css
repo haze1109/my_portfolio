@@ -8,7 +8,48 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.know-more a{
+ text-decoration: none;
+ color: #fff;
+}
 
+.portfolio_project {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio_project img {
+  flex-basis: calc(33.33% - 20px);
+  height: auto;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.portfolio_project p{
+  margin: 0 auto;
+  padding: 0 auto;
+  color: #333;
+}
+.portfolio_project body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-card img{
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.live-link-project a{
+  text-decoration: none;
+}
 
 .kodegologo {
     display:inline-block;
