@@ -787,3 +787,16 @@ h3{ font-size: var(--fs--h3) }
     }
   }
   
+
+  @media only screen and (max-width: 767px) {
+    .about-me__img {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .my-work {
+        padding-top: 0;
+        margin-top: 0;
+    }
+  }
