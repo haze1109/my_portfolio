@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" intergrity="sha256-46qynGAkLSFpVBEBog43gvNhfroj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900,900&display=swap">
-
-
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -43,7 +44,7 @@
 
     <!-- My Services -->
 
-    <section class="my-services" id="services">
+    <section class="my-services pb-5" id="services">
         <h1 class="section__title section__title--services"><strong>What I do</strong> </h1>
         <div class="services">
             <div class="service">
@@ -60,55 +61,95 @@
             </div> <!-- / service -->
         </div> <!-- / services -->
 
-        <a href="#work" class="btn">My Work</a>
+        <a href="#work" class="my-btn">My Work</a>
     </section>
 
      <!-- About me -->
     <section class="about-me" id="about">
         <h1 class="section__title section__title--about">Who I am</h1>
-        <p class="section__subtitle section__subtitle--about">Front end Developer based out of Philippines</p>
-        <div class="about-me__body">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore minima quisquam minus excepturi et id nisi quidem iste nostrum sunt.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab suscipit, necessitatibus ipsam atque autem consequatur corrupti est repellat! Cumque, ipsa.</p>
+        <p class="section__subtitle section__subtitle--about">I'm a recent bootcamp graduate with a passion for using my newly acquired full stack web development skills</p>
+        <div class="about-me__body mb-0 pb-0">
+            <div class="icon-row">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-bootstrap"></i>
+                <i class="fab fa-sass"></i>
+                <i class="fab fa-laravel"></i>
+                <i class="fab fa-php"></i>
+                <i class="fas fa-database"></i>
+                <i class="fas fa-inbox"></i>
+                <i class="fab fa-github"></i>
+                <i class="fas fa-robot"></i>
+                <i class="fab fa-canadian-maple-leaf"></i>
+              </div>
+            <!-- <p>Entry-level front-end developer based in the Philippines, eager to gain practical experience in HTML, CSS, and JavaScript. I recently completed a rigorous full-stack web development bootcamp through <img src="img/kodego logo.jpg" class="span_logo" alt=""> and am excited to apply my newfound skills in a professional setting</p>
+            -->
+            <p class="logo-text">Entry-level front-end developer based in the Philippines, eager to gain practical experience in HTML, CSS, and JavaScript. I recently completed a rigorous full-stack web development bootcamp through <span class="kodegologo"><img src="img/kodego logo.jpg" alt=""></span>and am excited to apply my newfound skills in a professional setting</p>
+
+
+            <ul class="icon-list">
+                <li>
+                  <i class="fab fa-html5"></i> <b>HTML</b>: Ability to create and structure web pages using HTML tags and semantic elements. Proficiency in using HTML to create forms, tables, and media elements like images and videos.
+                </li>
+                <li>
+                  <i class="fas fa-hand-point-right"></i><b>CSS</b>: Knowledge of CSS syntax, properties, and values. Understanding of CSS selectors, cascading rules, and box model. Experience in using CSS to style web pages, create responsive layouts, and apply animations and transitions.
+                </li>
+                <li>
+                  <i class="fas fa-sort-numeric-up"></i><b>JavaScript</b>: Proficiency in JavaScript syntax and programming concepts like variables, functions, loops, and arrays. Knowledge of DOM manipulation, events, and APIs. Experience in using JavaScript to create dynamic web pages, handle user input, and interact with web services.
+                </li>
+                <li>
+                  <i class="fas fa-lightbulb"></i><b>Problem-solving</b>: Ability to identify and analyze problems in web development projects. Experience in debugging code, researching solutions, and implementing fixes. Understanding of best practices for testing, version control, and documentation.
+                </li>
+                <li>
+                  <i class="fas fa-thumbs-up"></i><b>Collaboration</b>: Experience in working collaboratively with other developers, designers, and stakeholders. Effective communication skills, both verbal and written. Ability to give and receive constructive feedback and iterate on solutions.
+                </li>
+                <li>
+                    <i class="fas fa-code"></i><b>Laravel</b>:
+                    I have a strong foundation in Laravel and PHP basics, gained through my recent bootcamp experience. I am confident in my ability to create dynamic, scalable web applications using these technologies and am constantly seeking to expand my skills
+                </li>
+            </ul>
+              
+              
         </div>
 
         <img src="img/haze pic new.jpg" alt="" class="about-me__img">
     </section>
 
     <!-- My Work -->
-    <section class="my-work" id="work">
+    <section class="my-work pt-2 mt-0" id="work">
         <h1>My Work</h1>
-        <p class="section__subtitle">A selection of my range of Work</p>
+        <p class="section__subtitle">Range of collaborative work I have done</p>
 
-        <div class="portfolio">
+        <div class="portfolio img-fluid">
             <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/hardware.png" alt="" class="portfolio__img">
+            <a href="#" class="portfolio__item mt-0">
+                <img src="img/myworkpet3.png" style="width:428px; 
+                height:220px" alt="" class="portfolio__img">
             </a>
             <!-- Portfolio item 02 -->
             <a href="#" class="portfolio__item">
-                <img src="img/hardware.png" alt="" class="portfolio__img">
+                <img src="img/myworkhardware2.png" alt="" class="portfolio__img">
             </a>
             <!-- Portfolio item 03 -->
             <a href="#" class="portfolio__item">
-                <img src="img/hardware.png" alt="" class="portfolio__img">
+                <img src="img/myworkjobhive.png" alt="" class="portfolio__img">
             </a>
             <!-- Portfolio item 04 -->
-            <a href="#" class="portfolio__item">
+            <!-- <a href="#" class="portfolio__item">
                 <img src="img/hardware.png" alt="" class="portfolio__img">
-            </a>
+            </a> -->
         </div>
     </section>
 
 
     <!--  Footer  -->
     <footer class="footer">
-        <a href="https://mail.google.com/" class="footer__link">hazemorales11@gmail.com</a>
+        <!-- <a href="https://mail.google.com/" class="footer__link"></a> -->
         <ul class="social-list">
             <li class="social-list__item"><a href="https://github.com/haze1109" class="social-list__link"><i class="fa-brands fa-github"></i></i></a></li>
             <li class="social-list__item"><a href="https://www.linkedin.com/in/haze-morales-557259183/" class="social-list__link"><i class="fa-brands fa-linkedin"></i></a></li>
             <li class="social-list__item"><a href="www.messenger/m.me/momi1109" class="social-list__link"><i class="fa-brands fa-facebook-messenger"></i></a></li>
-            <!-- <li class="social-list__item"><a href="#" class="social-list__link">d</a></li> -->
         </ul>
     </footer>
     <script src="index.js"></script>
