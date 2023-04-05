@@ -9,14 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" intergrity="sha256-46qynGAkLSFpVBEBog43gvNhfroj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900,900&display=swap">
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="img/mylogo2.png" alt="">
+          <a href="./index.html"> <img src="img/mylogo2.png" alt=""></a> 
         </div>
 
         <button class="nav-toggle" aria-label="toggle navigation">
@@ -33,19 +32,19 @@
     </header>
 
     <!-- Introduction -->
-    <section class="intro" id="home">
+    <section class="intro pt-1 mb-0 pb-2" id="home">
         <h1 class="section__title section__title--intro">
             Hi, I am <br> <b>Haze Morales</b>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <p class="section__subtitle section__subtitle--intro pt-0 mt-0">front-end dev</p>
         <img src="img/dady3-removebg-preview.png" alt="a photo" class="intro__img">
     </section>
 
 
     <!-- My Services -->
 
-    <section class="my-services" id="services">
-        <h1 class="section__title section__title--services"><strong>What I do</strong> </h1>
+    <section class="my-services pt-2 mt-0 pb-2" id="services">
+        <h2 class="section__title section__title--services pt-0 mt-0"><strong>What I do</strong> </h2>
         <div class="services">
             <div class="service">
                 <h3>Design + Development</h3>
@@ -65,8 +64,8 @@
     </section>
 
      <!-- About me -->
-    <section class="about-me" id="about">
-        <h1 class="section__title section__title--about">Who I am</h1>
+    <section class="about-me pt-2 pb-2" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
         <p class="section__subtitle section__subtitle--about">I'm a recent bootcamp graduate with a passion for using my newly acquired full stack web development skills</p>
         <div class="about-me__body mb-0 pb-0">
             <div class="icon-row">
@@ -86,7 +85,7 @@
             <p class="logo-text"><span class="kodegologo"><img src="img/kodego logo.jpg" alt=""></span></p>
             <ul class="icon-list">
                 <li>
-                  <i class="fab fa-html5"></i> <b>HTML</b>: Ability to create and structure web pages using HTML tags and semantic elements. Proficiency in using HTML to create forms, tables, and media elements like images and videos.
+                  <i class="fab fa-html5"></i><b>HTML</b>: Ability to create and structure web pages using HTML tags and semantic elements. Proficiency in using HTML to create forms, tables, and media elements like images and videos.</p>
                 </li>
                 <li>
                   <i class="fas fa-hand-point-right"></i><b>CSS</b>: Knowledge of CSS syntax, properties, and values. Understanding of CSS selectors, cascading rules, and box model. Experience in using CSS to style web pages, create responsive layouts, and apply animations and transitions.
@@ -110,10 +109,10 @@
     </section>
 
     <!-- My Work -->
-    <section class="my-work pt-2 mt-0" id="work">
-        <h1>My Work</h1>
-        <p class="section__subtitle">Range of collaborative work I have done</p>
-        <p><small><i>Click the project images to know more</i></small> </p>
+    <section class="my-work pt-1 mt-0 pb-2" id="work">
+        <h2 class="text-white">My Work</h2>
+        <p class="section__subtitle text-white">Range of collaborative work I have done</p>
+        <p class="text-white"><small><i>Click the project images to know more</i></small> </p>
         <div class="portfolio img-fluid">
             <!-- Portfolio item 01 -->
             <a href="./portfolio-item.html" target="_blank" class="portfolio__item mt-0">
@@ -123,23 +122,41 @@
         
 
             <!-- Portfolio item 02 -->
-            <a href="https://ricafortsnj.github.io/MP2-HardwareStore/" class="portfolio__item">
+            <a href="https://ricafortsnj.github.io/MP2-HardwareStore/" target="_blank" class="portfolio__item">
                 <img src="img/myworkhardware2.png" alt="" class="portfolio__img">
             </a>
             <!-- Portfolio item 03 -->
-            <a href="https://github.com/BlukissGithub/JobHives-Webite" class="portfolio__item">
+            <a href="https://github.com/BlukissGithub/JobHives-Webite" target="_blank" class="portfolio__item">
                 <img src="img/myworkjobhive.png" alt="" class="portfolio__img">
             </a>
         </div>
         <div class="my-btn-btn pt-2 mt-5 pb-0 mb-0"> 
             <a href="#about" class="my-btn">About me</a>
         </div>
-       
+    </section>
+
+
+
+    <!-- Contact -->
+    <section class="contact_us container pt-2 mt-2 pb-0 mb-0">
+        <h2 class="text-center"><b>Contact</b></h2>
+        <div class="col-lg-12 text-center">
+                +63 906-239-6740 <br>
+                hazemorales11@gmail.com  <br>
+                General Trias Cavite
+        </div>
+        <div class="row">
+            <div class="map col-lg-8 offset-lg-2 col-md-12 justify-content-center pb-0 mb-0">
+                <div class="map_embed pb-0 mb-0 pt-2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.632019593271!2d120.92004667400396!3d14.332794683579433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d4e10555ae9f%3A0x5c74f25c9e589e57!2sParklane%20Rd%2C%20General%20Trias%2C%20Cavite!5e0!3m2!1sen!2sph!4v1680658341346!5m2!1sen!2sph" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
     </section>
 
 
     <!--  Footer  -->
-    <footer class="footer pt-0 mb-0 pb-0">
+    <footer class="footer pt-0 mt-0 mb-0 pb-0">
         <ul class="social-list">
             <li class="social-list__item"><a href="https://github.com/haze1109" class="social-list__link"><i class="fa-brands fa-github"></i></i></a></li>
             <li class="social-list__item"><a href="https://www.linkedin.com/in/haze-morales-557259183/" class="social-list__link"><i class="fa-brands fa-linkedin"></i></a></li>
